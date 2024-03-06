@@ -13,7 +13,7 @@ function App() {
   }
 
   return (
-    <div className="text-center">
+    <div className="text-center ">
       Aktiv dil: {i18n.language}<br/>
       <nav>
         <button onClick={() => clickHandle('az-AZ')}>az</button>

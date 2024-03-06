@@ -4,6 +4,7 @@ import { Route, Routes } from 'react-router-dom'
 import CreateScreen from '../pages/CreateScreen'
 import DetailScreen from '../pages/DetailScreen'
 import CreateCategoryScreen from '../pages/CreateCategoryScreen'
+import CreateHospitalScreen from '../pages/CreateHospitalScreen'
 
 const MyRouter = () => {
   return (
@@ -12,6 +13,7 @@ const MyRouter = () => {
       <Route path='/create' element={<CreateScreen />} />
       <Route path='/detail/:id' element={<DetailScreen />} />
       <Route path='/category/create' element={<CreateCategoryScreen />} />
+      <Route path='/hospital/create' element={<CreateHospitalScreen />} />
     </Routes>
   )
 }

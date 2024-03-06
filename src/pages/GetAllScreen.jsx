@@ -1,6 +1,7 @@
 import React from 'react'
 import GetAll from '../components/GetAll'
 import { Link } from 'react-router-dom'
+import GetAllHospitalBranch from '../components/GetAllHospital'
 
 const GetAllScreen = () => {
   
@@ -9,7 +10,9 @@ const GetAllScreen = () => {
   return (
     <div>
         <GetAll/>
-        <Link to="/create">create</Link>
+        {/* <GetAllHospitalBranch/> */}
+        <Link to="/hospital/create">create</Link>
+        {/* <Link to="/create">create</Link> */}
     </div>
   )
 }
